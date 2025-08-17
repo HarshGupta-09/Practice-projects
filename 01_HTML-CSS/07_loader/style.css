@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #00008bcb;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+.loading{
+    background: #fff;
+    width: 30px;
+    height: 30px;
+  margin: 0 10px;
+    border-radius: 50%;
+    animation: load 0.8s ease infinite ;
+}
+@keyframes load {
+    0%{
+        width: 30px;
+        height: 30px
+
+    }
+    50%{
+            width: 20px;
+            height: 20px;
+    }
+}
+.loader .loading.one{
+    animation-delay: 0.3s;
+}
+.loader .loading.two{
+    animation-delay: 0.4s;
+}
+.loader .loading.three{
+    animation-delay: 0.5s;
+}
+.loader .loading.four{
+    animation-delay: 0.5s;
+}
