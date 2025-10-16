@@ -42,7 +42,7 @@ async function searchMeals() {
       errorContainer.textContent = `NO Result found`;
       errorContainer.classList.remove("hidden");
     } else {
-      resultHeading.textContent = `search results for "${searchTerm}":`;
+      resultHeading.textContent = `Search results for "${searchTerm}":`;
       displayMeals(data.meals);
       searchInput.value = "";
     }
