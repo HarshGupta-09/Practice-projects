@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh ;
+    background-color: black;
+    font-family: sans-serif;
+          color: #fff;
+
+}
+p{
+    font-size: 3rem;
+
+}
+.js{
+    color: yellow;
+
+}
+.typed-text{
+    color: green;
+}
+.cursor{
+    background-color: green;
+}
